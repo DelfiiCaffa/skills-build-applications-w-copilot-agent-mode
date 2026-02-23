@@ -1,0 +1,161 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  color: #23395d;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: none;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #23395d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, a {
+  color: #1e88e5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #23395d 0%, #3a6ea5 100%) !important;
+  box-shadow: 0 2px 8px rgba(35, 57, 93, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-brand img {
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd600 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #23395d;
+  font-weight: 700;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(35, 57, 93, 0.06);
+}
+.table thead {
+  background: #3a6ea5;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f0f4f9;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #e3ecfa;
+}
+
+/* Buttons */
+.btn, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border-radius: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(35, 57, 93, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3a6ea5 0%, #23395d 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #23395d 0%, #3a6ea5 100%);
+}
+.btn-success {
+  background: linear-gradient(90deg, #43a047 0%, #388e3c 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #29b6f6 0%, #0288d1 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffd600 0%, #ffb300 100%);
+  color: #23395d;
+  border: none;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #757575 0%, #424242 100%);
+  border: none;
+}
+
+/* Cards */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(35, 57, 93, 0.10);
+  border: none;
+}
+.card-header {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Misc */
+.text-primary {
+  color: #3a6ea5 !important;
+}
+.text-secondary {
+  color: #757575 !important;
+}
+.text-success {
+  color: #43a047 !important;
+}
+.text-warning {
+  color: #ffd600 !important;
+}
+.text-info {
+  color: #29b6f6 !important;
+}
+.text-dark {
+  color: #23395d !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
